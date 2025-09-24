@@ -183,6 +183,5 @@ public class firstTask {
             System.out.println("Загаданное слово: " + word);
         }
         System.out.println("Игра окончена");
-        flag = false;
     }
 }

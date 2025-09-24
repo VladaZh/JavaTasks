@@ -1,10 +1,9 @@
 package firstTask;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class firstTask {
+public class FirstTask {
 
     public static int count(boolean[] arr, boolean symb){
         int count = 0;
@@ -183,5 +182,6 @@ public class firstTask {
             System.out.println("Загаданное слово: " + word);
         }
         System.out.println("Игра окончена");
+        scanner.close();
     }
 }
